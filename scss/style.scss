@@ -1,2 +1,14 @@
-
+// IMPORT AND USE CUSTOMIZED BOOTSTRAP V5 $ scss/_custom.scss
 @use "custom";
+
+// IMPORT AND USE CUSTOM COMPONENTS $ scss/components/..
+@use "components/animations";
+@use "components/breadcrumbs";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
+
+// IMPORT AND USE CUSTOM SECTIONS $ scss/sections/..
+@use "sections/footer";
+@use "sections/main";
+@use "sections/navbar";
