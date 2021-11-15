@@ -1,0 +1,26 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid project being littered with annoying .DS_Store files!
+###############################################
+## Please do not remove line 18 and 19 - thanks! 🙂 ##
+###############################################
+.DS_Store
+.prettierignore
+
+# Directories and Files to Untrack
+###############################################
+## Please do not remove line 25 and 26 - thanks! 🙂 ##
+###############################################
+node_modules
+theming-kit.html
