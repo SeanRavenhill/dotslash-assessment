@@ -1,0 +1,82 @@
+@use "../custom" as *;
+
+.menu {
+	.navbar-brand {
+		margin: 0;
+		padding: 0 4.75rem 0 1.875rem !important;
+	}
+
+	a,
+	.btn {
+		font-family: "Suez One", serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 1.0625rem;
+		line-height: 1.375rem;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	a {
+		color: $black !important;
+		padding: 0 1.875rem 0 0 !important;
+
+		&:hover,
+		&:focus {
+			color: $primary !important;
+		}
+	}
+
+	.active {
+		color: $primary !important;
+	}
+
+	.navbar-icons {
+		padding-right: 4.5rem;
+
+		a {
+			font-size: 1.5rem;
+			line-height: 1.25rem;
+			text-align: center;
+			color: $secondary !important;
+			padding: 0 1.875rem 0 0 !important;
+
+			&:hover,
+			&:focus {
+				color: $primary !important;
+			}
+
+			&:last-child {
+				padding: 0 !important;
+			}
+		}
+	}
+
+	.navbar-btns {
+		margin: 0;
+		padding: 0 1.875rem 0 0;
+
+		.btn {
+			color: $primary;
+			padding: 0.625rem 1.875rem;
+		}
+
+		.sign-up-btn {
+			margin: 0 1.875rem 0 0;
+		}
+
+		.login-btn {
+			border: 0.1875rem solid $primary;
+			border-radius: 0.25rem;
+		}
+
+		.sign-up-btn,
+		.login-btn {
+			&:hover,
+			&:focus {
+				background: $primary;
+				color: $white;
+			}
+		}
+	}
+}
