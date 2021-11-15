@@ -5,6 +5,7 @@
 @use "components/animations";
 @use "components/breadcrumbs";
 @use "components/buttons";
+// @use "components/colors";
 @use "components/mixins";
 @use "components/typography";
 
@@ -12,3 +13,4 @@
 @use "sections/footer";
 @use "sections/main";
 @use "sections/navbar";
+@use "sections/subnav";

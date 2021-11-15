@@ -1,0 +1,25 @@
+@use "../custom" as *;
+
+.sub-nav {
+    background: $primary;
+}
+
+.sub-nav-items {
+    border: 1px red solid;
+
+    p,
+    .btn {
+        color: $secondary;
+        font-family: "Suez One", serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 1.0625rem;
+		line-height: 1.375rem;
+		text-align: center;
+		text-transform: uppercase;
+    }
+
+    p {
+        margin: 0;
+    }
+}
