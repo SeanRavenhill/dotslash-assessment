@@ -21,12 +21,6 @@ $secondary:     $gray-600;
 $light:         $gray-200;
 $dark:          $gray-900;
 
-// imports _functions.scss file from /node_modules/bootstrap/scss/.. source code
-// _variables.scss requires this to execute the map merge function
-@import "../node_modules/bootstrap/scss/functions";
-// imports _variables.scss where theme variables are defined 
-@import "../node_modules/bootstrap/scss/variables";
-
 ////////////////////////////////////////////////////////////////
 // CUSTOMISED VARIABLE OVERWRITES
 ////////////////////////////////////////////////////////////////
@@ -39,6 +33,12 @@ $breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/200
 }
 
 // FONTS
+// imports _functions.scss file from /node_modules/bootstrap/scss/.. source code
+// _variables.scss requires this to execute the map merge function
+@import "../node_modules/bootstrap/scss/functions";
+// imports _variables.scss where theme variables are defined 
+@import "../node_modules/bootstrap/scss/variables";
+
 $custom-font-sizes: (
   1: 2.5rem,      // 40px
   2: 1.875rem,    // 30px
