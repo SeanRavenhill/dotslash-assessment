@@ -80,3 +80,41 @@
 		}
 	}
 }
+
+@media (max-width: 991.98px) {
+	.menu {
+		.navbar-nav {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.collapse {
+			margin-top: 1.875rem !important;
+		}
+
+		.navbar-brand {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		a {
+			padding: 0 !important;
+			margin: 0 0 1rem 0 !important;
+		}
+
+		.navbar-icons {
+			a {
+				padding: 0 !important;
+			}
+		}
+
+		.navbar-btns {
+			margin: 0 !important;
+			padding: 0 !important;
+
+			.sign-up-btn {
+				margin: 0 0 1rem 0 !important;
+			}
+		}
+	}
+}
