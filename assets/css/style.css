@@ -11204,11 +11204,12 @@ textarea.form-control-lg {
   }
 }
 .sub-nav {
-  background: #00A2FF;
+  background: red;
 }
 
 .sub-nav-items {
   border: 1px red solid;
+  padding: 19px 0;
 }
 .sub-nav-items p,
 .sub-nav-items .btn {
@@ -11223,6 +11224,15 @@ textarea.form-control-lg {
 }
 .sub-nav-items p {
   margin: 0;
+}
+.sub-nav-items .find-store-btn {
+  color: #00A2FF;
+  border: 0.1875rem solid #00A2FF;
+  border-radius: 0.25rem;
+}
+.sub-nav-items .find-store-btn:hover, .sub-nav-items .find-store-btn:focus {
+  background: #00A2FF;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

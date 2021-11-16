@@ -1,0 +1,17 @@
+// FONTS
+// imports _functions.scss file from /node_modules/bootstrap/scss/.. source code
+// _variables.scss requires this to execute the map merge function
+@import "../../../node_modules/bootstrap/scss/functions";
+// imports _variables.scss where theme variables are defined 
+@import "../../../node_modules/bootstrap/scss/variables";
+
+$custom-font-sizes: (
+  1: 2.5rem,      // 40px
+  2: 1.875rem,    // 30px
+  3: 1.25rem,     // 20px
+  4: 1.125rem,    // 18px
+  5: 1.0625rem,   // 17px
+  6: 1rem         // 16px
+);
+
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);

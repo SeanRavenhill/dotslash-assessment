@@ -1,11 +1,12 @@
-@use "../custom" as *;
+@use "../custom/custom-bootstrap-v5" as *;
 
 .sub-nav {
-    background: $primary;
+    background: red;
 }
 
 .sub-nav-items {
     border: 1px red solid;
+    padding: 19px 0;
 
     p,
     .btn {
@@ -21,5 +22,17 @@
 
     p {
         margin: 0;
+    }
+
+    .find-store-btn {
+        color: $primary;
+        border: 0.1875rem solid $primary;
+        border-radius: 0.25rem;
+
+        &:hover,
+		&:focus {
+            background: $primary;
+            color: $white;
+        }
     }
 }
