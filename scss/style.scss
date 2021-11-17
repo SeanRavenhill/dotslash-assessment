@@ -1,7 +1,10 @@
-// IMPORT AND USE CUSTOMIZED BOOTSTRAP V5 $ scss/_custom.scss
+// IMPORT AND USE CUSTOMIZED BOOTSTRAP V5
 @use "custom/custom-bootstrap-v5";
 
-// IMPORT AND USE CUSTOM SECTIONS $ scss/sections/..
+// IMPORT CUSTOM COMPONENTS
+@use "components/sale-banner";
+
+// IMPORT AND USE CUSTOM SECTIONS
 @use "sections/footer";
 @use "sections/main";
 @use "sections/navbar";

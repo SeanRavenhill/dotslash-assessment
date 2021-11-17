@@ -54,32 +54,60 @@
     <!-- END NAVBAR SECTION -->
 
     <!-- START SUB-NAV SECTION -->
-    <nav class="container-fluid sub-nav bg-light">
-        <div class="row">
-            <div class="col-md-8" style="border: 1px solid blue;">
-                <p class="sub-nav-item">Adventure is just around the corner!</p>
-            </div>
-            <div class="col-md-4" style="border: 1px solid green;">
-                <button class="btn find-store-btn" role="button">FIND A STORE</button>
-                <p class="sub-nav-item">Not in South Africa?</p>
-            </div>
-        </div> 
+    <nav class="container-fluid bg-light">
+        <div class="sub-nav">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <p class="fs-5 text-center text-md-start">Adventure is just around the corner!</p>
+                </div>
+                <div class="col-md-3 my-md-0 my-3 d-flex justify-content-center justify-content-md-end align-items-center">
+                    <button class="btn find-store-btn fs-5" role="button">FIND A STORE</button>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                    <a class="fs-5 text-center text-md-start" href="#">Not in South Africa?</a>
+                </div>
+            </div> 
+        </div>
     </nav>
     <!-- END SUB-NAV SECTION -->
 
-    <!-- START SUB-NAV SECTION -->
-    <!-- <nav class="container-fluid sub-nav bg-light">
-        <div class="sub-nav-items d-flex flex-row justify-content-between align-items-center">
-                <p class="sub-nav-item">Adventure is just around the corner!</p>
-                <div class="d-flex flex-row align-items-center">
-                    <button class="btn find-store-btn" role="button">FIND A STORE</button>
-                    <p class="sub-nav-item">Not in South Africa?</p>
-                </div>
+    <!-- MAIN START -->
+    <main class="container mt-3">
+        <div class="row">
+            <!-- LEFT COLUMN START -->
+            <div class="col-md-4">
+
             </div>
-    </nav> -->
-    <!-- END SUB-NAV SECTION -->
+            <!-- LEFT COLUMN END -->
 
-
+            <!-- RIGHT COLUMN START -->
+            <div class="col-md-8">
+                <!-- SALE BANNER START -->
+                <div class="d-none d-lg-block">
+                    <div class="sale-banner py-3 d-flex justify-content-between align-items-center">
+                        <div class="sale-banner-text">
+                            <p class="fs-2 mb-2">Summer sale!</p>
+                            <p class="fs-3">Up to 50% off!</p>
+                        </div>
+                        <div class="sale-banner-btn">
+                            <button class="btn sale-btn fs-5"role="button">Shop now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SALE BANNER END -->
+                <!-- SHOP WINDOW START -->
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2">
+                      <div class="col" style="background: lightcyan;">Column</div>
+                      <div class="col" style="background: lightcoral;">Column</div>
+                    </div>
+                </div>
+            <!-- SHOP WINDOW START -->
+            <!-- RIGHT COLUMN END -->
+        </div>
+    </main>
+    <!-- MAIN END -->
+    
     <!-- Bootstrap CDN Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
