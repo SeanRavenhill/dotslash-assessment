@@ -1,0 +1,17 @@
+@use "../variables/colors" as *;
+
+.sale-badge {
+    background: $primary;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.3125rem;
+    padding: 0.125rem 0.625rem;
+}
+
+.sale-badge-posistioning {
+    position: absolute;
+    z-index: 10;
+    top: 0.875rem;
+    right: 0.875rem;
+}
