@@ -6,13 +6,6 @@ const thumbBtn5 = document.getElementById("thumb-btn-5");
 
 const thumbBtnArray = [thumbBtn1, thumbBtn2, thumbBtn3, thumbBtn4, thumbBtn5];
 
-// const carouselBtnPrev = document.getElementById("carousel-control-prev");
-// const carouselBtnNext = document.getElementById("carousel-control-next");
-
-// const carouselInner = document.getElementsByClassName("carousel-inner");
-
-// let currentImage = (carouselInner[0].getElementsByClassName("carousel-item active")[0].getElementsByTagName("img")[0].getAttribute("src"))
-
 window.onload = btnsClicked;
 
 function btnsClicked() {
@@ -21,13 +14,9 @@ function btnsClicked() {
 	thumbBtn3.onclick = clicked;
 	thumbBtn4.onclick = clicked;
 	thumbBtn5.onclick = clicked;
-    // carouselBtnPrev.onclick = clicked;
-    // carouselBtnNext.onclick = clicked;
 }
 
 function clicked(e) {
-    // currentImage = (carouselInner[0].getElementsByClassName("carousel-item active")[0].getElementsByTagName("img")[0].getAttribute("src"))
-    // console.log(currentImage)
 	let thumbBtnActiveToggle = e.target;
 	for (const thumbBtn of thumbBtnArray) {
 		if (thumbBtn.className === "custom-carousel-thumb-btn custom-active") {
