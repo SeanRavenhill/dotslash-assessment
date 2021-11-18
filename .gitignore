@@ -23,5 +23,5 @@
 ## Please do not remove line 25 and 26 - thanks! 🙂 ##
 ###############################################
 node_modules
-.misc.scss
+/misc.scss
 # theming-kit.html
