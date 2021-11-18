@@ -6027,11 +6027,11 @@ textarea.form-control-lg {
   } ]
 } */
 .carousel-control-prev-icon {
-  background-image: url("/assets/images/chevron-left.svg");
+  background-image: url("../../../assets/images/chevron-left.svg");
 }
 
 .carousel-control-next-icon {
-  background-image: url("/assets/images/chevron-right.svg");
+  background-image: url("../../../assets/images/chevron-right.svg");
 }
 
 .carousel-indicators {
