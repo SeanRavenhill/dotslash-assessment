@@ -11224,13 +11224,14 @@ textarea.form-control-lg {
 }
 
 .strikethrough:before {
+  text-decoration: line-through;
   position: absolute;
-  content: "";
+  content: " R599";
+  margin: 0;
+  padding: 0;
+  top: 40%;
   left: 0;
-  top: 0;
-  right: 0;
-  width: 20px;
-  height: 2px;
+  border-top: 2px solid red;
   background: inherit;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
