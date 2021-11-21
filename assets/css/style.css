@@ -11188,6 +11188,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.text-light-opac {
+  color: #82828250;
+}
+
+.add-to-card-btn {
+  margin-top: 2.1875rem;
+  padding: 1.5rem 2.375rem;
+}
+.add-to-card-btn i {
+  margin-right: 1.25rem;
+}
+
 .custom-carousel-thumb-btn {
   border: none;
   padding: 0;
@@ -11221,10 +11233,6 @@ textarea.form-control-lg {
   outline-offset: -2px;
   top: 0;
   left: 0;
-}
-
-.text-light-opac {
-  color: #82828250;
 }
 
 .color-picker {
