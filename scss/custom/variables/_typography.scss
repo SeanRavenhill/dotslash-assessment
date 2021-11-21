@@ -12,7 +12,8 @@ $custom-font-sizes: (
   4: 1.125rem,    // 18px
   5: 1.0625rem,   // 17px
   6: 1rem,        // 16px
-  7: 0.75rem      // 12px
+  7: 0.875rem,    // 14px
+  8: 0.75rem      // 12px
 );
 
 $font-sizes: map-merge($font-sizes, $custom-font-sizes);
@@ -28,6 +29,6 @@ $font-sizes: map-merge($font-sizes, $custom-font-sizes);
 };
 
 .reway-sans-serif-bold {
-  font-family: "Suez One", serif;
+  font-family: "PT Sans", serif;
   font-weight: 700;
 };

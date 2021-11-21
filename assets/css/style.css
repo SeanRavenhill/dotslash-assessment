@@ -65,7 +65,7 @@
 }
 
 .reway-sans-serif-bold {
-  font-family: "Suez One", serif;
+  font-family: "PT Sans", serif;
   font-weight: 700;
 }
 
@@ -7530,6 +7530,10 @@ textarea.form-control-lg {
 }
 
 .fs-7 {
+  font-size: 0.875rem !important;
+}
+
+.fs-8 {
   font-size: 0.75rem !important;
 }
 
@@ -11219,25 +11223,34 @@ textarea.form-control-lg {
   left: 0;
 }
 
-.strikethrough {
+.text-light-opac {
+  color: #82828250;
+}
+
+.color-picker {
+  background: #91613D;
+  width: 15px;
+  height: 15px;
+  outline: 2px solid #111111;
+  outline-offset: -2px;
+}
+
+.price-strikethrough {
+  font-size: 0.875rem;
   position: relative;
 }
 
-.strikethrough:before {
-  text-decoration: line-through;
+.price-strikethrough::after {
   position: absolute;
-  content: " R599";
-  margin: 0;
-  padding: 0;
-  top: 40%;
-  left: 0;
-  border-top: 2px solid red;
-  background: inherit;
-  -webkit-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);
+  content: "";
+  background-image: url("../../assets/images/price-strike-through.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 47px;
+  top: 0;
+  left: -6px;
+  z-index: 10;
 }
 
 .sale-banner {

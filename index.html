@@ -185,36 +185,96 @@
                         <!-- SHOP WINDOW RIGHT COLUMN START -->
                         <div class="col">
                             <!-- PRODUCT INFO CARD START -->
-                            <div class="card border border-primary border-5 rounded-0">
+                            <div class="card border border-primary border-5 rounded-0 mb-3">
                                 <div class="card-body text-secondary">
                                     <h5 class="card-title fs-3 reway-primary-serif text-black text-uppercase">Dylan Hiker Boot</h5>
-                                    <p class="fs-7 reway-sans-serif text-light-opac text-uppercase"><i class="far fa-store-alt"></i>&nbsp SUPERBALIST</p>
-                                    <div class="ps-4">
-                                        <p>Fabication <span>Faux Leather</span></p>
-                                        <p>Colour <span>Brown</span></p>
-                                        <p>Brand <span>Superbalist</span></p>
+                                    <p class="fs-8 reway-sans-serif text-light-opac text-uppercase"><i class="far fa-store-alt"></i>&nbsp SUPERBALIST</p>
+                                    
+                                    <div class="row ps-4">
+                                        <div class="col reway-sans-serif">
+                                            <p>Fabication</p>
+                                            <p>Colour</p>
+                                            <p class="mb-0">Brand</p>
+                                        </div>
+                                        <div class="col pe-5 reway-sans-serif-bold text-black">
+                                            <p>Faux Leather</p>
+                                            <p class="d-flex align-items-center"><button class="color-picker rounded-circle me-2" type="button"></button>Colour</p>
+                                            <p class="mb-0">Superbalist</p>
+                                        </div>
                                     </div>
+
                                     <hr class="me-5">
-                                    <div>  
-                                        <p>Product Details</p>
-                                        <ul>
-                                            <li>Hiking boot</li>
-                                            <li>Speed laces</li>
-                                            <li>Lace-up design</li>
-                                            <li>Rubber sole</li>
+
+                                    <div class="row ps-4">
+                                        <p class="fs-8 mb-1 reway-sans-serif text-light-opac text-uppercase">Product Details</p>
+                                        <ul class="fs-7 reway-sans-serif text-secondary list-unstyled">
+                                            <li>• Hiking boot</li>
+                                            <li>• Speed laces</li>
+                                            <li>• Lace-up design</li>
+                                            <li>• Rubber sole</li>
                                         </ul>
                                     </div>
                                     <div class="d-flex justify-content-end align-items-end">
-                                        <div><span class="badge sale-badge fs-6"><i class="far fa-tag"></i> -40% Off</span></div>
-                                        
-                                        <div>
-                                            <p class="reway-primary-serif strikethrough">R 599</p>
-                                            <p>R 359</p>
+                                        <div class="me-4"><span class="badge sale-badge fs-6"><i class="far fa-tag"></i> -40% Off</span></div>
+                                        <div class="d-flex flex-column align-items-end">
+                                            <div class="price-strikethrough">
+                                                <p class="my-0 reway-primary-serif">R 599</p>
+                                            </div>
+                                            <p class="fs-2 text-black reway-primary-serif my-0">R 359</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- PRODUCT INFO CARD END -->
+                            <!-- ADD TO CART CARD START -->
+                            <div class="card">
+                                <div class="shoe-size">
+                                    <div>Size</div>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="shoeSizeDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Select Size
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="shoeSizeDropDownMenu">
+                                          <li><a class="dropdown-item" href="#">6</a></li>
+                                          <li><a class="dropdown-item" href="#">7</a></li>
+                                          <li><a class="dropdown-item" href="#">7.5</a></li>
+                                          <li><a class="dropdown-item" href="#">8</a></li>
+                                          <li><a class="dropdown-item" href="#">8.5</a></li>
+                                          <li><a class="dropdown-item" href="#">9</a></li>
+                                          <li><a class="dropdown-item" href="#">9.5</a></li>
+                                          <li><a class="dropdown-item" href="#">10</a></li>
+                                          <li><a class="dropdown-item" href="#">10.5</a></li>
+                                          <li><a class="dropdown-item" href="#">11</a></li>
+                                          <li><a class="dropdown-item" href="#">12</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="shoe-size">
+                                    <div>Quantity</div>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="shoeSizeDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Select Size
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="shoeSizeDropDownMenu">
+                                          <li><a class="dropdown-item" href="#">1</a></li>
+                                          <li><a class="dropdown-item" href="#">2</a></li>
+                                          <li><a class="dropdown-item" href="#">3</a></li>
+                                          <li><a class="dropdown-item" href="#">4</a></li>
+                                          <li><a class="dropdown-item" href="#">5</a></li>
+                                          <li><a class="dropdown-item" href="#">6</a></li>
+                                          <li><a class="dropdown-item" href="#">7</a></li>
+                                          <li><a class="dropdown-item" href="#">8</a></li>
+                                          <li><a class="dropdown-item" href="#">9</a></li>
+                                          <li><a class="dropdown-item" href="#">10</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="add-to-card">
+                                    <button class="btn add-to-card-btn"><i class="far cart-plus"></i> Add to cart</button>
+                                </div>
+                                
+                            </div>
+                            <!-- ADD TO CART END -->
                         </div>
                         <!-- SHOP WINDOW RIGHT COLUMN END -->
                     </div>
@@ -228,8 +288,8 @@
     <!-- MAIN END -->
     
     <!-- Bootstrap CDN Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="scripts/customThumbnailGallery.js"></script>
-    <script src="scripts/bootstrap.bundle.js"></script>
+    <!-- <script src="scripts/bootstrap.bundle.js"></script> -->
   </body>
 </html>
