@@ -11200,6 +11200,32 @@ textarea.form-control-lg {
   margin-right: 1.25rem;
 }
 
+.accent-line {
+  height: 2px;
+}
+
+.custom-card {
+  text-decoration: none;
+  border: none;
+  border-radius: 0px;
+}
+.custom-card .boot-name {
+  color: #111111;
+}
+.custom-card .view-boot {
+  color: #828282;
+}
+.custom-card:hover, .custom-card:focus {
+  outline: 4px solid #00A2FF;
+  outline-offset: -4px;
+  background: #EAEAEA;
+}
+.custom-card:hover .boot-name,
+.custom-card:hover .view-boot, .custom-card:focus .boot-name,
+.custom-card:focus .view-boot {
+  color: #00A2FF;
+}
+
 .custom-carousel-thumb-btn {
   border: none;
   padding: 0;
