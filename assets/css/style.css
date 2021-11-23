@@ -11313,9 +11313,25 @@ textarea.form-control-lg {
   z-index: 10;
 }
 
-.mail-list-submit-btn {
-  padding: 0;
+.close-btn {
+  position: absolute;
+  background: none;
+  border: none;
   margin: 0;
+  padding: 0;
+  top: 0.4375rem;
+  right: 0.75rem;
+}
+
+.mailing-list-form {
+  margin: 0 1.8125rem;
+}
+
+.mail-list-submit-btn:hover, .mail-list-submit-btn:active {
+  background: #00A2FF !important;
+  color: #FFFFFF !important;
+  outline: 0.25rem solid #FFFFFF !important;
+  outline-offset: -0.25rem;
 }
 
 .sale-banner {

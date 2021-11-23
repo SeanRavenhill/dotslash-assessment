@@ -84,18 +84,21 @@
                 </div>
                 <!-- GDN BANNER AD START -->
                 <!-- MAILING LIST SIGN-UP CARD START -->
-                <form class="mailing-list-card">
-                    <div class="card rounded-0 border-0 bg-primary p-3">
-                        <button type="button" class="d-flex flex-column align-items-end m-0 p-0 border-0 bg-transparent"><i class="far fa-times fs-6 text-white"></i></button>
-                        <div class="d-flex flex-column justify-content-between">
-                            <i class="far fa-envelope fs-1 text-white"></i>
-                            <p class="fs-3 reway-primary-serif text-white text-uppercase">Sign up to our mailing list!</p>
-                        </div>
+                <div class="card rounded-0 border-0 bg-primary p-4 position-relative">
+                    <button type="button" class="close-btn"><i class="far fa-times fs-6 text-white"></i></button>
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="far fa-envelope fs-1 text-white"></i>
+                        <p class="fs-3 reway-primary-serif text-center text-white text-uppercase mt-2">Sign up to our mailing list!</p>
+                    </div>
+                    <form class="mailing-list-form">
                         <label for="inputEmail" class="form-label fs-7 reway-sans-serif-bold text-white text-uppercase">Email</label>
                         <input type="email" class="form-control border-0 fs-7 reway-sans-serif-bold text-uppercase" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email address">
-                        <button type="submit" class="btn mail-list-submit-btn fs-3 reway-primary-serif text-primary text-uppercase bg-white mt-3 py-3 px-5">Submit</button>
-                    </div>
-                </form>
+                        <div class="d-flex flex-column align-items-center">
+                            <button type="submit" class="btn mail-list-submit-btn fs-3 reway-primary-serif text-primary text-uppercase bg-white rounded-0 mt-3 py-3 px-5">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                
                 <!-- MAILING LIST SIGN-UP CARD END -->
             </div>
             <!-- LEFT COLUMN END -->
@@ -424,7 +427,7 @@
     </main>
     <!-- MAIN END -->
     <!-- FOOTER START -->
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark mt-5">
         <div class="row">
             <div class="col text-white">
                 <p>Account</p>
