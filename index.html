@@ -75,7 +75,29 @@
     <main class="container mt-3">
         <div class="row">
             <!-- LEFT COLUMN START -->
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <!-- GDN BANNER AD START -->
+                <div class="d-none d-md-block d-lg-block">
+                    <div class="d-flex justify-content-center mb-5">
+                        <img class="img-fluid" src="/assets/images/google-display-banner.png" alt="">
+                    </div>
+                </div>
+                <!-- GDN BANNER AD START -->
+                <!-- MAILING LIST SIGN-UP CARD START -->
+                <form class="mailing-list-card">
+                    <div class="card rounded-0 border-0 bg-primary p-3">
+                        <button type="button" class="d-flex flex-column align-items-end m-0 p-0 border-0 bg-transparent"><i class="far fa-times fs-6 text-white"></i></button>
+                        <div class="d-flex flex-column justify-content-between">
+                            <i class="far fa-envelope fs-1 text-white"></i>
+                            <p class="fs-3 reway-primary-serif text-white text-uppercase">Sign up to our mailing list!</p>
+                        </div>
+                        <label for="inputEmail" class="form-label fs-7 reway-sans-serif-bold text-white text-uppercase">Email</label>
+                        <input type="email" class="form-control border-0 fs-7 reway-sans-serif-bold text-uppercase" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email address">
+                        <button type="submit" class="btn mail-list-submit-btn fs-3 reway-primary-serif text-primary text-uppercase bg-white mt-3 py-3 px-5">Submit</button>
+                    </div>
+                </form>
+                <!-- MAILING LIST SIGN-UP CARD END -->
+            </div>
             <!-- LEFT COLUMN END -->
 
             <!-- RIGHT COLUMN START -->
@@ -229,7 +251,7 @@
                         <!-- PRODUCT INFO CARD END -->
 
                         <!-- ADD TO CART CARD START -->
-                        <div class="card bg-light rounded-0 border-0 bg-primary p-4">
+                        <div class="card bg-light rounded-0 border-0 bg p-4">
                             <div class="mb-4">
                                 <p class="fs-7 reway-sans-serif-bold text-secondary text-uppercase mb-1">Size</p>
                                 <div class="dropdown bg-white">
@@ -274,7 +296,7 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <button class="btn bg-primary text-white fs-2 reway-primary-serif text-uppercase add-to-card-btn"><i class="far fa-cart-plus"></i> Add to cart</button>
+                                <button class="btn fs-2 reway-primary-serif text-uppercase add-to-card-btn"><i class="far fa-cart-plus"></i> Add to cart</button>
                             </div>
                         </div>
                         <!-- ADD TO CART END -->
@@ -318,10 +340,13 @@
                         <div class="col-6 col-sm-6 col-lg-4 mt-5">
                             <a href="#" class="card custom-card">
                                 <div class="card-body m-0 p-0">
-                                    <div class="card-img position-relative">
-                                        <span class="fs-6 text-uppercase badge stock-low-badge stock-low-badge-posistioning">Stock Low</span>
+                                    <div class="card-img">
+                                        <div class="position-relative">
+                                             <span class="fs-6 text-uppercase badge stock-low-badge stock-low-badge-posistioning">Stock Low</span>
                                         <span class="fs-6 badge sale-badge sale-badge-posistioning"><i class="far fa-tag"></i> -40% Off</span>
-                                        <img class="img-fluid" src="/assets/images/boots-catalogue-02.png" alt="Cameron leather Boots">
+                                        <img class="img-fluid" src="/assets/images/boots-catalogue-02.png" alt="Cameron leather Boots"> 
+                                        </div>
+                                       
                                     </div>
                                     <h5 class="boot-name card-title fs-4 reway-primary-serif text-uppercase pt-3 px-3">Cameron leather</h5>
                                     <p class="fs-6 fw-bold reway-sans-serif text-secondary px-3"><i class="far fa-store-alt"></i>&nbsp Superbalist</p>

@@ -1,38 +1,31 @@
 @use "../custom/variables/colors" as *;
 
 .accent-line {
-    height: 2px;
+	height: 2px;
 }
 
 .custom-card {
-    text-decoration: none;
-    border: none;
-    border-radius: 0px;
+	text-decoration: none;
+	border: none;
+	border-radius: 0px;
 
-    .boot-name {
-        color: $black;
-    }
+	.boot-name {
+		color: $black;
+	}
 
-    .view-boot {
-        color: $secondary;
-    }
-    
-    &:hover,
-    &:focus {
-        outline: 4px solid $primary;
-        outline-offset: -4px;
-        background: $light;
-        .boot-name,
-        .view-boot {
-            color: $primary;
-        }
-    }
+	.view-boot {
+		color: $secondary;
+	}
 
-    
+	&:hover,
+	&:focus {
+		outline: 4px solid $primary;
+		outline-offset: -4px;
+		background: $light;
+		z-index: 9999;
+		.boot-name,
+		.view-boot {
+			color: $primary;
+		}
+	}
 }
-
-
-
-
-
-

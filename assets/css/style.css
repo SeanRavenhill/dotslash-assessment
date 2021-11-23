@@ -11211,9 +11211,18 @@ textarea.form-control-lg {
 .add-to-card-btn {
   margin-top: 2.1875rem;
   padding: 1.5rem 2.375rem;
+  background: #00A2FF;
+  color: #FFFFFF;
+  border-radius: 0;
 }
 .add-to-card-btn i {
   margin-right: 1.25rem;
+}
+.add-to-card-btn:hover, .add-to-card-btn:focus {
+  background: #FFFFFF;
+  color: #00A2FF;
+  outline: 4px solid #00A2FF;
+  outline-offset: -4px;
 }
 
 .accent-line {
@@ -11235,6 +11244,7 @@ textarea.form-control-lg {
   outline: 4px solid #00A2FF;
   outline-offset: -4px;
   background: #EAEAEA;
+  z-index: 9999;
 }
 .custom-card:hover .boot-name,
 .custom-card:hover .view-boot, .custom-card:focus .boot-name,
@@ -11301,6 +11311,11 @@ textarea.form-control-lg {
   top: 0;
   left: -6px;
   z-index: 10;
+}
+
+.mail-list-submit-btn {
+  padding: 0;
+  margin: 0;
 }
 
 .sale-banner {
