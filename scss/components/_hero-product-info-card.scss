@@ -1,28 +1,27 @@
 @use "../custom/variables/colors" as *;
 
 .color-picker {
-  background: #91613D;
-  width: 15px;
-  height: 15px;
-  outline: 2px solid $black;
-  outline-offset: -2px;
+	background: #91613d;
+	width: 15px;
+	height: 15px;
+	outline: 2px solid $black;
+	outline-offset: -2px;
 }
 
 .price-strikethrough {
-  font-size: 0.875rem;
-  position: relative;
+	font-size: 0.875rem;
+	position: relative;
 }
 
 .price-strikethrough::after {
-  position: absolute;
-  content: "";
-  background-image: url("../../assets/images/price-strike-through.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100%;
-  width: 47px;
-  top: 0;
-  left: -6px;
-  z-index: 10;
+	position: absolute;
+	content: "";
+	background-image: url("../../assets/images/price-strike-through.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+	width: 47px;
+	top: 0;
+	left: -6px;
+	z-index: 10;
 }
-
