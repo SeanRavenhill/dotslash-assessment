@@ -60,20 +60,6 @@ input[type="range"]::-webkit-slider-thumb {
     margin-top: -0.40625rem;
 }
 
-span[type="range1"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    height: 1rem;
-    width: 1rem;
-    background: $primary;
-    outline: 1px solid $white;
-    outline-offset: -1px;
-    border-radius: 1rem;
-    cursor: pointer;
-    pointer-events: auto;
-    margin-top: -0.40625rem;
-}
-
-
 input[type="range"]::-moz-range-thumb {
     -webkit-appearance: none;
     height: 1rem;
