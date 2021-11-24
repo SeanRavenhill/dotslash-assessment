@@ -39,6 +39,28 @@
 	}
 }
 
+// SUB NAV BUTTONS
+.find-store-btn {
+    background: transparent;
+	color: $primary;
+	line-height: 1.375rem;
+	padding: 0.6875rem 1.5rem;
+	outline: 4px solid $primary;
+	outline-offset: -4px;
+	border-radius: 0.25rem;
+
+	&:hover,
+	&:focus {
+		background: $primary;
+		color: $white;
+		outline: 4px solid $primary;
+		outline-offset: -4px;
+		border-radius: 0.25rem;
+	}
+}
+
+
+
 .search-btn {
 	background: $primary;
 	color: $white;
