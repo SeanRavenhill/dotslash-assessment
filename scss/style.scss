@@ -2,9 +2,12 @@
 @use "custom/custom-bootstrap-v5";
 
 // IMPORT CUSTOM COMPONENTS
-@use "components/add-to-card";
+// @use "components/add-to-card";
+@use "components/badges";
 @use "components/boots-catalogue";
+@use "components/buttons";
 @use "components/carousel-thumbnail-gallery";
+@use "components/dropdown-menu";
 @use "components/hero-product-info-card";
 @use "components/mail_list_form";
 @use "components/multi-range-slider";

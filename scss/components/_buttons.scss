@@ -1,0 +1,48 @@
+@use "../custom/variables/colors" as *;
+
+.search-btn {
+    background: $primary;
+    color: $white;
+    border: none;
+
+    &:hover,
+    &:focus {
+        background: $white;
+		color: $primary;
+		outline: 4px solid $primary;
+		outline-offset: -4px;
+    }
+}
+
+.add-to-card-btn {
+	background: $primary;
+    color: $white;
+    border: none;
+
+    &:hover,
+    &:focus {
+        background: $white;
+		color: $primary;
+		outline: 4px solid $primary;
+		outline-offset: -4px;
+    }
+}
+
+.custom-dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $white;
+    border: 1px solid $light;
+    border-radius: 2px;
+    font-size: 0.875rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    color: $secondary;
+    text-transform: uppercase;
+
+    &:hover,
+    &:active {
+        outline: 2px solid #00a2ff50;
+    }
+}

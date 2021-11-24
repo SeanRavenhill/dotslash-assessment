@@ -3,42 +3,6 @@
   color: #82828250;
 }
 
-.sale-badge {
-  background: #00a2ff;
-  font-family: "PT Sans", sans-serif;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 1.3125rem;
-  padding: 0.125rem 0.625rem;
-}
-
-.sale-badge-posistioning {
-  position: absolute;
-  z-index: 10;
-  top: 0.875rem;
-  right: 0.875rem;
-}
-
-.stock-low-badge {
-  background: rgba(0, 0, 0, 0.56);
-  font-family: "PT Sans", sans-serif;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 1.3125rem;
-  padding: 0.125rem 0.625rem;
-}
-
-.stock-low-badge-posistioning {
-  position: absolute;
-  z-index: 11;
-  bottom: 0.8125rem;
-  left: 0.6875rem;
-}
-
-.text-light-opac {
-  color: #82828250;
-}
-
 .breadcrumb-item + .breadcrumb-item::before {
   padding-top: 0.15625rem;
 }
@@ -11208,21 +11172,36 @@ textarea.form-control-lg {
   color: #82828250;
 }
 
-.add-to-card-btn {
-  margin-top: 2.1875rem;
-  padding: 1.5rem 2.375rem;
+.sale-badge {
   background: #00a2ff;
-  color: #ffffff;
-  border-radius: 0;
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  padding: 0.125rem 0.625rem;
 }
-.add-to-card-btn i {
-  margin-right: 1.25rem;
+
+.sale-badge-posistioning {
+  position: absolute;
+  z-index: 10;
+  top: 0.875rem;
+  right: 0.875rem;
 }
-.add-to-card-btn:hover, .add-to-card-btn:focus {
-  background: #ffffff;
-  color: #00a2ff;
-  outline: 4px solid #00a2ff;
-  outline-offset: -4px;
+
+.stock-low-badge {
+  background: rgba(0, 0, 0, 0.56);
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.3125rem;
+  padding: 0.125rem 0.625rem;
+}
+
+.stock-low-badge-posistioning {
+  position: absolute;
+  z-index: 11;
+  bottom: 0.8125rem;
+  left: 0.6875rem;
 }
 
 .accent-line {
@@ -11250,6 +11229,47 @@ textarea.form-control-lg {
 .custom-card:hover .view-boot, .custom-card:focus .boot-name,
 .custom-card:focus .view-boot {
   color: #00a2ff;
+}
+
+.search-btn {
+  background: #00a2ff;
+  color: #ffffff;
+  border: none;
+}
+.search-btn:hover, .search-btn:focus {
+  background: #ffffff;
+  color: #00a2ff;
+  outline: 4px solid #00a2ff;
+  outline-offset: -4px;
+}
+
+.add-to-card-btn {
+  background: #00a2ff;
+  color: #ffffff;
+  border: none;
+}
+.add-to-card-btn:hover, .add-to-card-btn:focus {
+  background: #ffffff;
+  color: #00a2ff;
+  outline: 4px solid #00a2ff;
+  outline-offset: -4px;
+}
+
+.custom-dropdown-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  color: #828282;
+  text-transform: uppercase;
+}
+.custom-dropdown-btn:hover, .custom-dropdown-btn:active {
+  outline: 2px solid #00a2ff50;
 }
 
 .custom-carousel-thumb-btn {
@@ -11285,6 +11305,13 @@ textarea.form-control-lg {
   outline-offset: -2px;
   top: 0;
   left: 0;
+}
+
+.dropdown-menu li a {
+  font-size: 0.875rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  color: #828282;
 }
 
 .color-picker {

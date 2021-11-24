@@ -1,0 +1,12 @@
+@use "../custom/variables/colors" as *;
+
+.dropdown-menu {
+    li {
+        a {
+            font-size: 0.875rem;
+            font-family: "PT Sans", sans-serif;
+            font-weight: 400;
+            color: $secondary;
+        }
+    }
+}
