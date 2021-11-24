@@ -11559,9 +11559,6 @@ output[type=range]::-ms-thumb {
   background-repeat: no-repeat;
   background-position: left;
 }
-.sale-banner .sale-banner-text {
-  margin-left: 3.4375rem;
-}
 .sale-banner p,
 .sale-banner .btn {
   color: #ffffff;
@@ -11577,7 +11574,6 @@ output[type=range]::-ms-thumb {
   border: 0.1875rem solid #ffffff;
   border-radius: 0.25rem;
   padding: 0.5rem 2.125rem;
-  margin-right: 10rem;
 }
 .sale-banner .sale-btn:hover, .sale-banner .sale-btn:focus {
   background: #00a2ff;
@@ -11607,10 +11603,6 @@ a:hover, a:focus {
   color: #00a2ff !important;
 }
 
-.navbar-menu-pe-30px {
-  padding-right: 1.875rem !important;
-}
-
 .navbar-icons .nav-link {
   font-weight: 400;
   font-size: 1.5rem;
@@ -11619,10 +11611,6 @@ a:hover, a:focus {
 }
 .navbar-icons .nav-link:hover, .navbar-icons .nav-link:active {
   color: #00a2ff !important;
-}
-
-.navbar-icons-ps-30px {
-  padding-left: 1.875rem !important;
 }
 
 .sub-nav p,
