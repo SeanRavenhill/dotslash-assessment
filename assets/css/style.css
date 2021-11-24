@@ -11506,6 +11506,13 @@ output[type=range]::-ms-thumb {
   color: #FFFFFF;
 }
 
+a {
+  color: #ffffff50;
+}
+a:hover, a:focus {
+  color: #FFFFFF;
+}
+
 .menu .navbar-brand {
   margin: 0;
   padding: 0 4.75rem 0 1.875rem !important;

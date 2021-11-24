@@ -1,0 +1,10 @@
+@use "../custom/variables/colors" as *;
+
+a {
+    color: #ffffff50;
+    
+    &:hover,
+    &:focus {
+        color: $white;
+    }
+}
