@@ -21,34 +21,57 @@
   </head>
   <body>
     <!-- START NAVBAR SECTION -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/reway-logo.svg" alt="reway logo">
+
+            <!-- LOGO START -->
+            <a class="navbar-brand ms-lg-5 ms-md-4 ms-3 me-0" href="index.html">
+                <img class="img-fluid" src="assets/images/reway-logo.svg" alt="reway logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- LOGO END -->
+
+            <!-- MENU TOGGLE BUTTON START -->
+            <button class="navbar-toggler me-md-4 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#">Apparels</a>
-                    <a class="nav-link active" aria-current="page" href="#">Shoes</a>
-                    <a class="nav-link" href="#">Equipment</a>
-                    <a class="nav-link" href="#">Gift</a>
-                </div>
-                <div class="navbar-nav">
-                    <div class="navbar-nav justify-content-between align-items-center navbar-icons">
-                        <a class="nav-link" href="#"><i class="far fa-gift"></i></a>
-                        <a class="nav-link" href="#"><i class="far fa-star"></i></a>
-                        <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
-                        <a class="nav-link" href="#"><i class="far fa-tag"></i></a>
+            <!-- MENU TOGGLE BUTTON END -->
+
+            <!-- NAVIGATION MENUS & BUTTONS START -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center mt-lg-0 mt-4" style="border: 1px solid green;">
+
+                    <!-- MAIN MENU NAVIGATION START -->
+                    <div class="navbar-menu d-flex flex-lg-row flex-column ms-lg-5 ms-md-4 ms-3">
+                        <a class="nav-link px-0 navbar-menu-pe-30px" href="#">Apparels</a>
+                        <a class="nav-link px-0 navbar-menu-pe-30px active" aria-current="page" href="#">Shoes</a>
+                        <a class="nav-link px-0 navbar-menu-pe-30px" href="#">Equipment</a>
+                        <a class="nav-link px-0" href="#">Gift</a>
                     </div>
-                    <div class="navbar-nav navbar-btns">
-                        <button class="btn sign-up-btn" type="button">Sign Up</button>
-					    <button class="btn login-btn" type="button">Login</button>
+                    <!-- MAIN MENU NAVIGATION END -->
+
+                    <!-- MENU ICONS START -->
+                    <div class="navbar-icons d-flex flex-lg-row ms-lg-5 ms-md-4 ms-3">
+                        <a class="nav-link px-0" href="#"><i class="far fa-gift"></i></a>
+                        <a class="nav-link px-0 navbar-icons-ps-30px" href="#"><i class="far fa-star"></i></a>
+                        <a class="nav-link px-0 navbar-icons-ps-30px" href="#"><i class="far fa-heart"></i></a>
+                        <a class="nav-link px-0 navbar-icons-ps-30px" href="#"><i class="far fa-tag"></i></a>
                     </div>
+                    <!-- MENU ICONS END -->
+
+                    <!-- MENU BUTTONS START -->
+                    <div class="navbar-btns" style="border: 1px red solid;">
+                        <button type="button" class="sign-up-btn fs-5 reway-primary-serif text-uppercase">
+                            Search
+                        </button>
+                        <button type="button" class="login-btn fs-5 reway-primary-serif text-uppercase">
+                            Login
+                        </button>
+                    </div>
+                    <!-- MENU BUTTONS END -->
+                    
                 </div>
             </div>
+            <!-- NAVIGATION MENUS & BUTTONS START -->
         </div>
     </nav>
     <!-- END NAVBAR SECTION -->
