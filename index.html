@@ -78,24 +78,71 @@
             <div class="col-md-4">
 
                 <!-- SEARCH & FILTER PANEL START -->
-                <div class="row">
-                    <div class="card rounded-0 border-0 bg-primary">
-                        <div>
-                            <i class="far fa-chevron-left fs-1 text-white"></i>
-                        </div>
-                        <div class="multi-range-slider">
-                            <p class="fs-6">Pricing</p>
-                            <div class="slider-track"></div>
-                            <input type="range" min="0" max="3000" value="300" id="slider-1" oninput="slide1()">
-                            <input type="range" min="0" max="3000" value="2000" id="slider-2" oninput="slide2()">
-                            <!-- <output type="range" id="slider-1-output" class="fs-8 reway-sans-serif-bold text-secondary"></output> -->
-                            <!-- <output type="range"  id="slider-2-output" class="fs-8 reway-sans-serif-bold text-secondary"></output>  -->
+                <div class="card bg-white border-2 rounded-0 border-primary">
+                    <!-- SEARCH MENU TOGGLER START -->
+                    <div class="bg-primary">
+                        <button class="btn d-flex align-items-center m-0 ms-2">
+                            <i class="far fa-chevron-left fs-4 text-white m-0 me-3"></i>
+                            <p class="fs-6 reway-sans-serif text-white m-0">Hide</p>
+                        </button>
+                        <div class="d-flex align-items-center ms-5 mb-2">
+                            <p class="fs-3 reway-primary-serif text-white text-uppercase my-0">Search reway</p>
+                            <i class="far fa-search fs-4 text-white mt-0 ms-3"></i>
                         </div>
                     </div>
+                    <!-- SEARCH MENU TOGGLER END -->
+
+                    <!-- BRANDS FILTER START -->
+                    <div class="bg-white">
+                        <form class="mailing-list-form">
+                            <label for="inputEmail" class="form-label fs-7 reway-sans-serif-bold text-secondary text-uppercase">Brands</label>
+                            <input type="email" class="form-control border-1 border-light fs-7 reway-sans-serif-bold text-uppercase" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Brands">
+                        </form>
+                    </div>
+                    <!-- BRANDS FILTER END -->
+
+                    <!-- COLOURS SELECTION DROP DOWN -->
+                    <div class="mb-4 mx-4">
+                        <p class="fs-7 reway-sans-serif-bold text-secondary text-uppercase mb-1">Colour</p>
+                        <div class="dropdown bg-white border-1 border-light">
+                            <button class="btn fs-7 reway-sans-serif-bold text-secondary text-uppercase d-flex justify-content-between align-items-center" type="button" id="coloursDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select Colour
+                                <i class="fas fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="coloursDropDownMenu">
+                                <li><a class="dropdown-item" href="#">Black</a></li>
+                                <li><a class="dropdown-item" href="#">White</a></li>
+                                <li><a class="dropdown-item" href="#">Blue</a></li>
+                                <li><a class="dropdown-item" href="#">Red</a></li>
+                                <li><a class="dropdown-item" href="#">Brown</a></li>
+                                <li><a class="dropdown-item" href="#">Grey</a></li>
+                                <li><a class="dropdown-item" href="#">Yellow</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- COLOURS SELECTION DROP END -->
+
+                    <!-- PRICE RANGE SLIDER START -->
+                    <div class="multi-range-slider bg-white mx-4">
+                        <p class="fs-6">Pricing</p>
+                        <div class="slider-track"></div>
+                        <input type="range" min="0" max="3000" value="300" id="slider-1" oninput="slide1()">
+                        <input type="range" min="0" max="3000" value="2000" id="slider-2" oninput="slide2()">
+                        <div>  
+                            <output type="range" id="slider-1-output" class="fs-8 reway-sans-serif-bold text-secondary"></output>
+                            <output type="range"  id="slider-2-output" class="fs-8 reway-sans-serif-bold text-secondary"></output>     
+                        </div>
+                    </div>
+                    <!-- PRICE RANGE SLIDER END -->
+
+                    <!-- SEARCH BUTTON START-->
+                    <div class="d-flex flex-column align-items-center">
+                        <button type="submit" class="btn search-btn fs-3 reway-primary-serif text-white text-uppercase bg-primary rounded-0 my-3 py-3 px-5">Submit</button>
+                    </div>
+                    <!-- SEARCH BUTTON END-->
+
+
                 </div>
-                
-                
-                
                 <!-- SEARCH & FILTER PANEL END -->
 
                 <!-- GDN BANNER AD START -->
