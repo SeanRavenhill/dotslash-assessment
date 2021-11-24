@@ -21,13 +21,13 @@ function btnsClicked() {
 	thumbBtn3.onclick = clicked;
 	thumbBtn4.onclick = clicked;
 	thumbBtn5.onclick = clicked;
-    // carouselBtnPrev.onclick = clicked;
-    // carouselBtnNext.onclick = clicked;
+	// carouselBtnPrev.onclick = clicked;
+	// carouselBtnNext.onclick = clicked;
 }
 
 function clicked(e) {
-    // currentImage = (carouselInner[0].getElementsByClassName("carousel-item active")[0].getElementsByTagName("img")[0].getAttribute("src"))
-    // console.log(currentImage)
+	// currentImage = (carouselInner[0].getElementsByClassName("carousel-item active")[0].getElementsByTagName("img")[0].getAttribute("src"))
+	// console.log(currentImage)
 	let thumbBtnActiveToggle = e.target;
 	for (const thumbBtn of thumbBtnArray) {
 		if (thumbBtn.className === "custom-carousel-thumb-btn custom-active") {

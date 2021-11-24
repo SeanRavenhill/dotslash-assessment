@@ -2,7 +2,7 @@
 // imports _functions.scss file from /node_modules/bootstrap/scss/.. source code
 // _variables.scss requires this to execute the map merge function
 @import "../../../node_modules/bootstrap/scss/functions";
-// imports _variables.scss where theme variables are defined 
+// imports _variables.scss where theme variables are defined
 @import "../../../node_modules/bootstrap/scss/variables";
 
 $custom-font-sizes: (
@@ -19,16 +19,16 @@ $custom-font-sizes: (
 $font-sizes: map-merge($font-sizes, $custom-font-sizes);
 
 .reway-primary-serif {
-  font-family: "Suez One", serif;
-  font-weight: 400;
-};
+	font-family: "Suez One", serif;
+	font-weight: 400;
+}
 
 .reway-sans-serif {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
-};
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+}
 
 .reway-sans-serif-bold {
-  font-family: "PT Sans", serif;
-  font-weight: 700;
-};
+	font-family: "PT Sans", serif;
+	font-weight: 700;
+}
