@@ -11269,7 +11269,7 @@ textarea.form-control-lg {
   background: transparent;
   color: #00a2ff;
   line-height: 1.375rem;
-  padding: 0.6875rem 0;
+  padding: 0.6875rem 1.5rem;
   outline: 4px solid #00a2ff;
   outline-offset: -4px;
   border-radius: 0.25rem;
@@ -11298,7 +11298,7 @@ textarea.form-control-lg {
   background: transparent;
   color: #ffffff;
   line-height: 1.375rem;
-  padding: 0.6875rem 0;
+  padding: 0.6875rem 2.125rem;
   outline: 4px solid #ffffff;
   outline-offset: -4px;
   border-radius: 0.25rem;
