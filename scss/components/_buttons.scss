@@ -41,7 +41,7 @@
 
 // SUB NAV BUTTONS
 .find-store-btn {
-    background: transparent;
+	background: transparent;
 	color: $primary;
 	line-height: 1.375rem;
 	padding: 0.6875rem 1.5rem;
@@ -53,14 +53,13 @@
 	&:focus {
 		background: $primary;
 		color: $white;
-		outline: 4px solid $primary;
+		outline: 4px solid $white;
 		outline-offset: -4px;
 		border-radius: 0.25rem;
 	}
 }
 
-
-
+// SEARCH CARD BUTTONS
 .search-btn {
 	background: $primary;
 	color: $white;
@@ -75,6 +74,29 @@
 	}
 }
 
+// MAILER SUBSCRIPTION BUTTON
+
+// SALES BANNER BUTTON
+.sale-btn {
+	background: transparent;
+	color: $white;
+	line-height: 1.375rem;
+	padding: 0.6875rem 2.125rem;
+	outline: 4px solid $white;
+	outline-offset: -4px;
+	border-radius: 0.25rem;
+
+	&:hover,
+	&:focus {
+		background: $primary;
+		color: $white;
+		outline: 4px solid $white;
+		outline-offset: -4px;
+		border-radius: 0.25rem;
+	}
+}
+
+// ADD TO CARD CARD BUTTON
 .add-to-card-btn {
 	background: $primary;
 	color: $white;
@@ -89,6 +111,7 @@
 	}
 }
 
+// CUSTOM DROPDOWN MENU BUTTONS
 .custom-dropdown-btn {
 	display: flex;
 	justify-content: space-between;

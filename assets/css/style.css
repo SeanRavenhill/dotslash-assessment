@@ -11277,7 +11277,7 @@ textarea.form-control-lg {
 .find-store-btn:hover, .find-store-btn:focus {
   background: #00a2ff;
   color: #ffffff;
-  outline: 4px solid #00a2ff;
+  outline: 4px solid #ffffff;
   outline-offset: -4px;
   border-radius: 0.25rem;
 }
@@ -11292,6 +11292,23 @@ textarea.form-control-lg {
   color: #00a2ff;
   outline: 4px solid #00a2ff;
   outline-offset: -4px;
+}
+
+.sale-btn {
+  background: transparent;
+  color: #ffffff;
+  line-height: 1.375rem;
+  padding: 0.6875rem 2.125rem;
+  outline: 4px solid #ffffff;
+  outline-offset: -4px;
+  border-radius: 0.25rem;
+}
+.sale-btn:hover, .sale-btn:focus {
+  background: #00a2ff;
+  color: #ffffff;
+  outline: 4px solid #ffffff;
+  outline-offset: -4px;
+  border-radius: 0.25rem;
 }
 
 .add-to-card-btn {
@@ -11557,27 +11574,12 @@ output[type=range]::-ms-thumb {
   background: #00a2ff;
   background-image: url("../../assets/images/sale-banner.png");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
 }
-.sale-banner p,
-.sale-banner .btn {
-  color: #ffffff;
-  font-family: "Suez One", serif;
+.sale-banner p {
   font-style: normal;
   font-weight: 400;
   line-height: 1.375rem;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-}
-.sale-banner .sale-btn {
-  border: 0.1875rem solid #ffffff;
-  border-radius: 0.25rem;
-  padding: 0.5rem 2.125rem;
-}
-.sale-banner .sale-btn:hover, .sale-banner .sale-btn:focus {
-  background: #00a2ff;
-  color: #ffffff;
 }
 
 a {
