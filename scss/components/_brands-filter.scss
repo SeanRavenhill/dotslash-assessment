@@ -13,17 +13,20 @@
 		/* Chrome, Firefox, Opera, Safari 10.1+ */
 		color: $gray-100;
 		font-weight: 700;
+    text-transform: uppercase;
 	}
 
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
 		color: $gray-100;
 		font-weight: 700;
+    text-transform: uppercase;
 	}
 
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
 		color: $gray-100;
 		font-weight: 700;
+    text-transform: uppercase;
 	}
 }

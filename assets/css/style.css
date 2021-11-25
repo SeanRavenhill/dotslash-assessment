@@ -11235,16 +11235,19 @@ textarea.form-control-lg {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #82828250;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .brand-filter :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #82828250;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .brand-filter ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #82828250;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .sign-up-btn {
@@ -11406,16 +11409,19 @@ textarea.form-control-lg {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #82828250;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .mailing-list-form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #82828250;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .mailing-list-form ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #82828250;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .color-picker {
