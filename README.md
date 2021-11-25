@@ -1,7 +1,6 @@
 # Sean Ravenhill | Dotslash Assessment - Front End Dev | reway, - E-commerce Store Front
 
-This project was presented to me as an assessment task to gauge my skills and fundamentals in front end development.
-Below is a template markdown document that I will populate as I progress into the project.
+This project was presented as an assessment task to gauge my skills and fundamentals in front end development by Werner Griesel at https://dotslash.digital/.
 
 ## Table of contents
 
@@ -17,33 +16,26 @@ Below is a template markdown document that I will populate as I progress into th
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Switch between viewing Daily, Weekly, and Monthly stats
+Use the following to build the site:
+
+1. Bootstrap 4+ (https://getbootstrap.com)
+2. Font Awesome for Icons (https://fontawesome.com)
+3. GitHub (https://github.com/) – Add to GitHub/or Zip and send back so we can demo the site on our side.
+4. Use any third-party jQuery/JS libraries you see fit.
+5. Should be mobile friendly (Work for Desktop, Tablet AND Mobile)
+6. You can add any features or functionality as you choose.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- GitHub Repository URL: https://github.com/SeanRavenhill/dotslash-assessment
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -52,62 +44,52 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- Bootstrap 5
+- Custom Bootstrap 5 variables
+- Sass & Dart-Sass
+- FontAwesome
+- Postcss Autoprefixer
+- JSON
+- Git and Github for version control
+- Custom Vanilla Javascript
+- Node Package Management
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Figma
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I familiarised myself with the Bootstrap v5 documentation and learned how to customise its variables and combine that with my own custom SASS CSS. 
 
-To see how you can add code snippets, see below:
+I gained a better understanding of how to use NodeJS and Node Package Manager to install dependencies such as Dart-Sass, Postcss Autoprefixer and FontAwesome etc. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I learned a great deal about how HTML and CSS can be written in a manner that allows for better collaboration between teams, using Bootstrap and its approach to utility classes. 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I also challenged myself to write my own custom Vanilla Javascript to control how the Carousel component which comes baked into Bootstrap, with my custom thumbnail gallery.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+### Continued development and areas for improvement
 
-### Continued development
+You will notice that in my Navbar section, there is a small bug present where side-scrolling behaviour occurs when responsively controlling the browser window. I need to investigate how to address the issue where there is a lot of content required to be painted by the browser in the Navbar section, how it may be possible to have all items scale with the use of, perhaps, clamping properties. There is also some strange behaviour with the Boots Catalogue section. It behaves responsively and works well when I view the site on different devices in developer modes in both Chrome and Firefox. However, there are some bugs when controlling the browser window on a desktop or laptop screen, when scaling the window as thin as possible on the horizontal axis.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I ran out of time to experiment with the use of Modals, and engaging a full-screen gallery of the carousel images. Also, I need to investigate the off-canvas component features of Bootstrap, another feature I was not able to address due to time constraints.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+In regards to my Javascript. I was very happy with what I did manage. However I need to learn how to control DOM elements using null objects (if this is indeed even possible), in this case, I wanted to add more functionality to the carousel and how it interacted with the thumbnail gallery when using the carousel indicators to control which image the carousel presented.
+
+Certainly, look to get more practise with Bootstrap as I can see the great benefits it can provide once you are comfortable using it. I would also like to investigate the Tailwind framework.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Patrick Muriungi - Youtube | FreeCodeCamp.org 
+(Learn Bootstrap 5 and SASS by Building a Portfolio Website - Full Course)](https://www.youtube.com/watch?v=iJKCj8uAHz8&t=441s&ab_channel=freeCodeCamp.org) - Patricks course was an absolute gem! He is a great teacher and a lot of things made sense after I had reviewed his course. I particularly like the way he sets up Bootstrap for development and the development enviroment.
+- [Scrimba - Learn Bootstrap for Free Course](https://scrimba.com/learn/bootstrap4) - A short and easy course that helps with some basic and fundamental concepts used in Bootstrap.
+- [FreeCodeCamp.org - Front End Development Libraries (Bootstrap)](https://www.freecodecamp.org/learn/front-end-development-libraries/#bootstrap) - Another short and easy course that can get you up and running with the basics of Bootstrap quickly.
+- [Bootstrap Website - Official Documentation](https://getbootstrap.com/) - When in doubt read the manual. Then read it again! Really helped me out when I got stuck on some things.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Sean Ravenhill - [GitHub](https://github.com/SeanRavenhill) | [LinkedIn](https://www.linkedin.com/in/seanravenhill/)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I would like to extend my thanks to Paige Orbe at Goldman Tech (http://www.goldmantech.co.za/) for reaching out to me on LinkedIn and presenting me with this amazing opportunity to join the team at Dotslash Digital (https://dotslash.digital/).
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would also like to extend thanks to Werner Griesel at Dotslash Digital for providing me this assesment, it has been a wonderful challenge. I have learned so much from this process, and feel I have progressed greatly as a developer in taking on the challenge! I would also like to thank Werner for his very personable and easy going approach to interviews. It was a very comfortable, personable and enjoyable conversation. It left me with a great impression of Werner and Dotslash.
