@@ -79,10 +79,10 @@ Certainly, look to get more practise with Bootstrap as I can see the great benef
 ### Useful resources
 
 - [Patrick Muriungi - Youtube | FreeCodeCamp.org 
-(Learn Bootstrap 5 and SASS by Building a Portfolio Website - Full Course)](https://www.youtube.com/watch?v=iJKCj8uAHz8&t=441s&ab_channel=freeCodeCamp.org) - Patricks course was an absolute gem! He is a great teacher and a lot of things made sense after I had reviewed his course. I particularly like the way he sets up Bootstrap for development and the development enviroment.
+(Learn Bootstrap 5 and SASS by Building a Portfolio Website - Full Course)](https://www.youtube.com/watch?v=iJKCj8uAHz8&t=441s&ab_channel=freeCodeCamp.org) - Patrick's course was an absolute gem! He is a great teacher and a lot of things made sense after I had reviewed his course. I particularly like the way he sets up Bootstrap for development and the development environment.
 - [Scrimba - Learn Bootstrap for Free Course](https://scrimba.com/learn/bootstrap4) - A short and easy course that helps with some basic and fundamental concepts used in Bootstrap.
 - [FreeCodeCamp.org - Front End Development Libraries (Bootstrap)](https://www.freecodecamp.org/learn/front-end-development-libraries/#bootstrap) - Another short and easy course that can get you up and running with the basics of Bootstrap quickly.
-- [Bootstrap Website - Official Documentation](https://getbootstrap.com/) - When in doubt read the manual. Then read it again! Really helped me out when I got stuck on some things.
+- [Bootstrap Website - Official Documentation](https://getbootstrap.com/) - When in doubt read the manual. Then read it again! It really helped me out when I got stuck on some things.
 
 ## Author
 
@@ -92,4 +92,4 @@ Certainly, look to get more practise with Bootstrap as I can see the great benef
 
 I would like to extend my thanks to Paige Orbe at Goldman Tech (http://www.goldmantech.co.za/) for reaching out to me on LinkedIn and presenting me with this amazing opportunity to join the team at Dotslash Digital (https://dotslash.digital/).
 
-I would also like to extend thanks to Werner Griesel at Dotslash Digital for providing me this assesment, it has been a wonderful challenge. I have learned so much from this process, and feel I have progressed greatly as a developer in taking on the challenge! I would also like to thank Werner for his very personable and easy going approach to interviews. It was a very comfortable, personable and enjoyable conversation. It left me with a great impression of Werner and Dotslash.
+I would also like to extend thanks to Werner Griesel at Dotslash Digital for providing me with this assessment, it has been a wonderful challenge. I have learned so much from this process, and feel I have progressed greatly as a developer in taking on the challenge! I would also like to thank Werner for his very personable and easy-going approach to interviews. It was a very comfortable, personable and enjoyable conversation. It left me with a great impression of Werner and Dotslash.
