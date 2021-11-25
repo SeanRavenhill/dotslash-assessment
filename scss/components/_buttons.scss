@@ -75,6 +75,19 @@
 }
 
 // MAILER SUBSCRIPTION BUTTON
+.mail-list-submit-btn {
+	background: $white;
+	color: $primary;
+	border: none;
+
+	&:hover,
+	&:focus {
+		background: $primary;
+		color: $white;
+		outline: 4px solid $white;
+		outline-offset: -4px;
+	}
+}
 
 // SALES BANNER BUTTON
 .sale-btn {

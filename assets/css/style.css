@@ -11301,6 +11301,18 @@ textarea.form-control-lg {
   outline-offset: -4px;
 }
 
+.mail-list-submit-btn {
+  background: #ffffff;
+  color: #00a2ff;
+  border: none;
+}
+.mail-list-submit-btn:hover, .mail-list-submit-btn:focus {
+  background: #00a2ff;
+  color: #ffffff;
+  outline: 4px solid #ffffff;
+  outline-offset: -4px;
+}
+
 .sale-btn {
   background: transparent;
   color: #ffffff;
