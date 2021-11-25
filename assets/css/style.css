@@ -11231,6 +11231,10 @@ textarea.form-control-lg {
   color: #00a2ff;
 }
 
+.brand-filter input:hover, .brand-filter input:focus {
+  outline: 2px solid #00a2ff50;
+  outline-offset: -2px;
+}
 .brand-filter ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #82828250;
@@ -11396,6 +11400,26 @@ textarea.form-control-lg {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   color: #828282;
+}
+
+.mailing-list-form input:hover, .mailing-list-form input:focus {
+  outline: 2px solid #00a2ff50;
+  outline-offset: -2px;
+}
+.mailing-list-form ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #82828250;
+  font-weight: 700;
+}
+.mailing-list-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #82828250;
+  font-weight: 700;
+}
+.mailing-list-form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #82828250;
+  font-weight: 700;
 }
 
 .color-picker {
