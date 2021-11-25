@@ -11183,9 +11183,8 @@ textarea.form-control-lg {
 
 .sale-badge-posistioning {
   position: absolute;
-  z-index: 10;
-  top: 0.875rem;
-  right: 0.875rem;
+  top: 1rem;
+  right: 1rem;
 }
 
 .stock-low-badge {
@@ -11198,10 +11197,7 @@ textarea.form-control-lg {
 }
 
 .stock-low-badge-posistioning {
-  position: absolute;
-  z-index: 11;
-  bottom: 0.8125rem;
-  left: 0.6875rem;
+  margin-top: 50%;
 }
 
 .accent-line {
