@@ -40,13 +40,11 @@ let indexPos = 0;
 
 function carouselClicked(e) {
 	let carouselBtnClicked = e.target.className;
-	console.log(carouselBtnClicked);
 	if (carouselBtnClicked === "carousel-control-next-icon") {
 		for (const thumbBtn of thumbBtnArray) {
 			if (thumbBtn.className === "custom-carousel-thumb-btn custom-active") {
 				thumbBtn.classList.remove("custom-active");
 				indexPos = thumbBtnArray.indexOf(thumbBtn) + 1;
-				console.log(indexPos);
 			}
 		}
 		if (indexPos === 5) {
