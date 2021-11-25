@@ -36,7 +36,7 @@ Use the following to build the site:
 ### Links
 
 - GitHub Repository URL: https://github.com/SeanRavenhill/dotslash-assessment
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Sean Ravenhill | Dotslash Assessment: Reway, eCommerce Storefront Prototype](https://determined-neumann-fe549a.netlify.app/)
 
 ## My process
 
