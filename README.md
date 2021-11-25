@@ -33,6 +33,8 @@ Use the following to build the site:
 
 ### Screenshot
 
+![](./screenshot.png)
+
 ### Links
 
 - GitHub Repository URL: https://github.com/SeanRavenhill/dotslash-assessment
