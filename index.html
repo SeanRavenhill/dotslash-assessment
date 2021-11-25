@@ -119,17 +119,17 @@
                     <!-- SEARCH MENU TOGGLER END -->
 
                     <!-- BRANDS FILTER START -->
-                    <div class="bg-white py-3">
-                        <form class="mailing-list-form">
-                            <label for="inputEmail" class="form-label fs-7 reway-sans-serif-bold text-secondary text-uppercase">Brands</label>
-                            <input type="email" class="form-control border-1 border-light fs-7 reway-sans-serif-bold text-uppercase" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Brands">
+                    <div class="bg-white py-3 mx-4">
+                        <form class="brand-filter text-light-opac">
+                            <label for="brandsFilter" class="form-label fs-7 reway-sans-serif-bold text-light-opac text-uppercase">Brands</label>
+                            <input type="text" class="form-control border-1 border-light fs-7 reway-sans-serif-bold text-uppercase" id="brandsFilter" aria-describedby="brandsFilter" placeholder="Enter Brands">
                         </form>
                     </div>
                     <!-- BRANDS FILTER END -->
 
                     <!-- COLOURS SELECTION DROP DOWN -->
                     <div class="mb-4 mx-4">
-                        <p class="fs-7 reway-sans-serif-bold text-secondary text-uppercase mb-1">Colour</p>
+                        <p class="fs-7 reway-sans-serif-bold text-light-opac text-uppercase mb-1">Colour</p>
                         <button class="w-100 custom-dropdown-btn fs-7 p-2" type="button" id="coloursDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
                             Select Colour
                             <i class="fas fa-caret-down"></i>
@@ -148,7 +148,7 @@
 
                     <!-- PRICE RANGE SLIDER START -->
                     <div class="multi-range-slider bg-white mx-4">
-                        <p class="fs-6">Pricing</p>
+                        <p class="fs-7 reway-sans-serif-bold text-light-opac text-uppercase">Pricing</p>
                         <div class="slider-track"></div>
                         <input type="range" min="0" max="3000" value="300" id="slider-1" oninput="slide1()">
                         <input type="range" min="0" max="3000" value="2000" id="slider-2" oninput="slide2()">
@@ -346,8 +346,8 @@
                         <!-- ADD TO CART CARD START -->
                         <div class="card bg-light rounded-0 border-0 bg p-4">
                             <div class="mb-4">
-                                <p class="fs-7 reway-sans-serif-bold text-secondary text-uppercase mb-1">Size</p>
-                                <button class="w-100 custom-dropdown-btn fs-7 p-2" type="button" id="shoeSizeDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                <p class="fs-7 reway-sans-serif-bold text-light-opac text-uppercase mb-1">Size</p>
+                                <button class="w-100 custom-dropdown-btn fs-7 text-light-opac p-2" type="button" id="shoeSizeDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
                                     Select Size
                                     <i class="fas fa-caret-down"></i>
                                 </button>
@@ -366,7 +366,7 @@
                                 </ul>
                             </div>
                             <div>
-                                <p class="fs-7 reway-sans-serif-bold text-secondary text-uppercase mb-1">Quantity</p>
+                                <p class="fs-7 reway-sans-serif-bold text-light-opac text-uppercase mb-1">Quantity</p>
                                 <button class="w-100 custom-dropdown-btn fs-7 p-2" type="button" id="quantityDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
                                     Select Quantity
                                     <i class="fas fa-caret-down"></i>

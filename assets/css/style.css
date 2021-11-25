@@ -11231,6 +11231,22 @@ textarea.form-control-lg {
   color: #00a2ff;
 }
 
+.brand-filter ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #82828250;
+  font-weight: 700;
+}
+.brand-filter :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #82828250;
+  font-weight: 700;
+}
+.brand-filter ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #82828250;
+  font-weight: 700;
+}
+
 .sign-up-btn {
   background: #ffffff;
   color: #00a2ff;
@@ -11332,8 +11348,8 @@ textarea.form-control-lg {
   border-radius: 2px;
   font-size: 0.875rem;
   font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  color: #828282;
+  font-weight: 700;
+  color: #82828250;
   text-transform: uppercase;
 }
 .custom-dropdown-btn:hover, .custom-dropdown-btn:active {
